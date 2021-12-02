@@ -7,15 +7,14 @@ Clone this repository
 ```bash
 git clone https://github.com/sS3lla/nojs
 
-cd nojs
+cd nojs/build
 
-cmake -B lib/
-
-cd lib
+cmake ..
 
 make
+
+./nojs
 ```
-The shared library will be in the lib folder. Make sure you set your LD_LIBRARY_PATH enviroment variable to the folder where the library is, when linking.
 
 ## Usage
 Todo
